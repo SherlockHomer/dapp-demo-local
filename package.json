@@ -1,5 +1,5 @@
 {
-  "name": "@repo/dapp-demo",
+  "name": "@repo/dapp-demo-local",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -83,7 +83,6 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "dev": "node scripts/start.js",
     "start": "node scripts/start.js",
     "build": "./scripts/release.sh",
     "release": "./scripts/release.sh"
